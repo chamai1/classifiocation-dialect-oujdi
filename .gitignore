@@ -1,0 +1,16 @@
+venv/
+frontend/node_modules/
+__pycache__/
+*.pyc
+.env
+*.log
+
+.cache/
+.vite/
+frontend/dist/
+
+models/transformer_lora/checkpoint-10000/
+models/transformer_lora/checkpoint-20000/
+models/transformer_lora/**/optimizer.pt
+models/transformer_lora/**/scheduler.pt
+models/transformer_lora/**/rng_state.pth
